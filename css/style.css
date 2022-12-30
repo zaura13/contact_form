@@ -2,13 +2,19 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.section1{
+.container1{
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
     padding: 25px 0;
 
 }
+
+.container2{
+    padding: 50px;
+    padding-bottom: 5px;
+}
+
 .title{
     width: 330px;
     margin-bottom: 60px;
@@ -22,7 +28,7 @@
 }
 .title  > h2{
     font-size: 35px;
-    font-weight: 700;
+    font-weight: 400;
     color: #000000;
 }
 /* satart form  */
@@ -71,3 +77,114 @@ input[ type=submit]{
     
 }
 /* end form  */
+/* .contact-info{
+
+} */
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 50px 0;
+    
+}
+.contact-info h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+.contact-info p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #B1B1B1;
+
+}
+
+.mail , .phone ,.map{
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icon{
+    width:50px;
+    height:50px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #5863F8;
+    border-radius: 50%;
+    border: none; 
+
+
+}
+
+
+.mail-icon{
+   
+    background-image: url(../images/mail.svg);
+   
+}
+.phone-icon {
+    background-image: url(../images/phone.svg);
+}
+.map-icon {
+    background-image: url(../images/map-pin.svg);
+}
+
+.sec2-title{
+    width: 450px;
+}
+.sec2-title > h5{
+
+}
+
+/* section 2 */
+.photos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* start footer  */
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:baseline;
+    padding-top: 90px;
+    background-color: #121212;
+    
+    
+}
+footer h3 ,footer a ,p{
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+footer h3{
+    font-size: 24px;
+    color: #FFFFFF;
+
+}
+
+footer a ,footer p{
+    font-size:14px ;
+    color: #5863F8;
+}
+
+.foter-leftblock{
+    width: 260px;
+
+}
+.foter-leftblock >p{
+    margin: 30px 0;
+
+}
+.footer-logos{
+    display: flex;
+}
+.footer-ul1 li, .footer-ul2 li, .footer-ul3 li{
+    margin-top: 10px;
+}
+
