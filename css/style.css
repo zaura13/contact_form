@@ -1,0 +1,73 @@
+.txtfont{
+    font-family: 'Poppins', sans-serif;
+}
+
+.section1{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px 0;
+
+}
+.title{
+    width: 330px;
+    margin-bottom: 60px;
+    
+}
+.title > h4{
+    color: #5863F8;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.title  > h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #000000;
+}
+/* satart form  */
+.contact-form{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.textarea{
+   padding: 15px 10px;
+   background-color: #F8F8F8;
+   border: 2px solid #E8E8E8;
+   resize: none;
+
+   
+   
+}
+
+
+input[ type=text] , input[ type=email], 
+input[ type=submit]{
+    display: block;
+    width: 370px;
+    height: 45px;
+    border: 2px solid #E8E8E8;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+
+    
+
+}
+input[ type=text] , input[ type=email]{
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    background-color: #F8F8F8;
+    font-size: 13px;
+    
+}
+input[ type=submit]{
+    background-color: #5863F8;
+    font-size: 14px;
+    color: #ffff;
+    
+}
+/* end form  */
