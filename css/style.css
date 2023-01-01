@@ -1,3 +1,5 @@
+
+
 .txtfont{
     font-family: 'Poppins', sans-serif;
 }
@@ -6,13 +8,13 @@
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-    padding: 25px 0;
+    padding: 25px 10px;
 
 }
 
 .container2{
     padding: 50px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 .title{
@@ -36,6 +38,7 @@
     display: flex;
     justify-content: space-between;
     
+    
 
 }
 
@@ -44,6 +47,8 @@
    background-color: #F8F8F8;
    border: 2px solid #E8E8E8;
    resize: none;
+   margin-right: 20px;
+   
 
    
    
@@ -58,7 +63,7 @@ input[ type=submit]{
     border: 2px solid #E8E8E8;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    cursor: pointer;
+    
 
     
 
@@ -74,6 +79,7 @@ input[ type=submit]{
     background-color: #5863F8;
     font-size: 14px;
     color: #ffff;
+    cursor: pointer;
     
 }
 /* end form  */
@@ -142,9 +148,12 @@ input[ type=submit]{
 
 /* section 2 */
 .photos{
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 
 /* start footer  */
 footer{
