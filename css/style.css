@@ -62,12 +62,13 @@ input[ type=submit]{
     height: 45px;
     border: 2px solid #E8E8E8;
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
     
-
-    
-
 }
+input[ type=text]:focus , 
+input[ type=email]:focus {
+    background-color: rgb(255, 255, 255);
+}
+
 input[ type=text] , input[ type=email]{
     margin-bottom: 20px;
     padding: 15px 10px;
@@ -80,8 +81,10 @@ input[ type=submit]{
     font-size: 14px;
     color: #ffff;
     cursor: pointer;
+    border: none;
     
 }
+
 /* end form  */
 /* .contact-info{
 
